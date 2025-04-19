@@ -1,26 +1,31 @@
 
 import { Button } from '@/components/ui/button';
 import { Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 
 const Hero = () => {
+  const { t } = useTranslation();
+
   return (
     <section className="hero-gradient text-white">
       <div className="container-custom py-16 md:py-24">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-6 max-w-xl">
             <h1 className="text-4xl md:text-5xl font-bold leading-tight">
-              Empowering People with Disabilities in Tanzania
+              {t('hero.title')}
             </h1>
             <p className="text-lg opacity-90">
-              SupportSphere connects people with disabilities to opportunities, resources, and a community that values their skills and products.
+              {t('hero.description')}
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link to="/register">
-                <Button className="btn-accent w-full sm:w-auto">Get Started</Button>
+                <Button className="btn-accent w-full sm:w-auto">
+                  {t('hero.getStarted')}
+                </Button>
               </Link>
               <Link to="/about">
                 <Button variant="outline" className="bg-white/10 text-white border-white/20 hover:bg-white/20 w-full sm:w-auto">
-                  Learn More
+                  {t('hero.learnMore')}
                 </Button>
               </Link>
             </div>
@@ -46,19 +51,19 @@ const Hero = () => {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             <div className="text-center">
               <p className="text-supportBlue-500 font-bold text-3xl">2,400+</p>
-              <p className="text-gray-600">Registered Users</p>
+              <p className="text-gray-600">{t('stats.users')}</p>
             </div>
             <div className="text-center">
               <p className="text-supportBlue-500 font-bold text-3xl">150+</p>
-              <p className="text-gray-600">Skills Listed</p>
+              <p className="text-gray-600">{t('stats.skills')}</p>
             </div>
             <div className="text-center">
               <p className="text-supportBlue-500 font-bold text-3xl">300+</p>
-              <p className="text-gray-600">Products</p>
+              <p className="text-gray-600">{t('stats.products')}</p>
             </div>
             <div className="text-center">
               <p className="text-supportBlue-500 font-bold text-3xl">45+</p>
-              <p className="text-gray-600">Partner Organizations</p>
+              <p className="text-gray-600">{t('stats.partners')}</p>
             </div>
           </div>
         </div>

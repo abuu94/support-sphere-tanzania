@@ -1,0 +1,30 @@
+
+{
+  "nav": {
+    "home": "Nyumbani",
+    "about": "Kuhusu Sisi",
+    "skills": "Ujuzi",
+    "products": "Bidhaa",
+    "contact": "Wasiliana",
+    "login": "Ingia",
+    "register": "Jiandikishe"
+  },
+  "hero": {
+    "title": "Kuwajengea Uwezo Watu Wenye Ulemavu Tanzania",
+    "description": "SupportSphere inaunganisha watu wenye ulemavu na fursa, rasilimali, na jamii inayothamini ujuzi na bidhaa zao.",
+    "getStarted": "Anza Sasa",
+    "learnMore": "Jifunze Zaidi"
+  },
+  "stats": {
+    "users": "Watumiaji Waliosajiliwa",
+    "skills": "Ujuzi Uliorodheshwa",
+    "products": "Bidhaa",
+    "partners": "Mashirika Washirika"
+  },
+  "cta": {
+    "title": "Uko Tayari Kujiunga na SupportSphere?",
+    "description": "Iwapo wewe ni mtu mwenye ulemavu unatafuta kuonesha vipaji vyako, au mdau anatafuta kuunganishwa na watu wenye ujuzi, SupportSphere ni jukwaa lako.",
+    "createAccount": "Fungua Akaunti",
+    "contactUs": "Wasiliana Nasi"
+  }
+}
