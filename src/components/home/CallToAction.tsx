@@ -1,6 +1,8 @@
 
 import { Button } from '@/components/ui/button';
 import { Link } from 'react-router-dom';
+import fafiHand from '../pictures/fafahand.png';
+
 
 const CallToAction = () => {
   return (
@@ -27,7 +29,8 @@ const CallToAction = () => {
           </div>
           <div className="lg:text-right">
             <img 
-              src="https://images.unsplash.com/photo-1649972904349-6e44c42644a7?ixlib=rb-4.0.3&auto=format&fit=crop&q=80&w=500"
+             src={fafiHand}
+              // src="https://images.unsplash.com/photo-1649972904349-6e44c42644a7?ixlib=rb-4.0.3&auto=format&fit=crop&q=80&w=500"
               alt="SupportSphere community" 
               className="rounded-lg shadow-xl inline-block"
               loading="lazy"

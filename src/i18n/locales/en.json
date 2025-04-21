@@ -1,0 +1,30 @@
+
+{
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "skills": "Skills",
+    "products": "Products",
+    "contact": "Contact",
+    "login": "Login",
+    "register": "Register"
+  },
+  "hero": {
+    "title": "Empowering People with Disabilities in Tanzania",
+    "description": "SupportSphere connects people with disabilities to opportunities, resources, and a community that values their skills and products.",
+    "getStarted": "Get Started",
+    "learnMore": "Learn More"
+  },
+  "stats": {
+    "users": "Registered Users",
+    "skills": "Skills Listed",
+    "products": "Products",
+    "partners": "Partner Organizations"
+  },
+  "cta": {
+    "title": "Ready to Join SupportSphere?",
+    "description": "Whether you're a person with a disability looking to showcase your talents, or a stakeholder seeking to connect with skilled individuals, SupportSphere is your platform.",
+    "createAccount": "Create an Account",
+    "contactUs": "Contact Us"
+  }
+}

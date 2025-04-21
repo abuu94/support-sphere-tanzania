@@ -3,36 +3,53 @@ import { useState } from 'react';
 import { Card, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { ArrowLeft, ArrowRight } from 'lucide-react';
+import juliana  from '../pictures/juliana.jpg'; // Adjust the import path as necessary
+import usama  from '../pictures/usama.jpg'; // Adjust the import path as necessary
+import seif  from '../pictures/seif_dev.jpg'; // Adjust the import path as necessary
+import maryam  from '../pictures/Mariam Mussa.jpg'; // Adjust the import path as necessary
+import abuu from '../pictures/supportSphereLogo.png'; // Adjust the import path as necessary
 
 const Testimonials = () => {
   const testimonials = [
     {
       id: 1,
-      name: "Amina Juma",
+      name: "Miss Juliana Mhando",
       role: "Jewelry Artisan",
       content: "SupportSphere has transformed my life. Before joining, I struggled to find buyers for my handcrafted jewelry. Now, I have regular customers and even export my products internationally!",
-      image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&auto=format&fit=crop&q=80&w=200"
+      image: {juliana}
+      // image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&auto=format&fit=crop&q=80&w=200"
     },
     {
       id: 2,
-      name: "Emmanuel Mbogo",
+      name: "Usama Talib",
       role: "Software Developer",
       content: "As a person with visual impairment, finding employment was challenging. Through SupportSphere, I was able to showcase my coding skills and now work remotely for a tech company.",
-      image: "https://images.unsplash.com/photo-1600486913747-55e5470d6f40?ixlib=rb-4.0.3&auto=format&fit=crop&q=80&w=200"
+      image: {usama}
+      // image: "https://images.unsplash.com/photo-1600486913747-55e5470d6f40?ixlib=rb-4.0.3&auto=format&fit=crop&q=80&w=200"
     },
     {
       id: 3,
-      name: "Grace Mwangi",
+      name: "Maryam Mussa",
       role: "Business Owner",
       content: "The platform's accessibility features made it easy for me to manage my online presence. My small tailoring business has grown, and I've even hired two assistants from the community.",
-      image: "https://images.unsplash.com/photo-1598550874175-4d0ef436c909?ixlib=rb-4.0.3&auto=format&fit=crop&q=80&w=200"
+      // image: "https://images.unsplash.com/photo-1598550874175-4d0ef436c909?ixlib=rb-4.0.3&auto=format&fit=crop&q=80&w=200"
+      image: {maryam}
     },
     {
       id: 4,
-      name: "Hamisi Omar",
+      name: "Seid Mwita",
       role: "Graphic Designer",
       content: "SupportSphere connected me with clients who value my design skills. The platform's focus on abilities rather than disabilities has been refreshing and empowering.",
-      image: "https://images.unsplash.com/photo-1504257432389-52343af06ae3?ixlib=rb-4.0.3&auto=format&fit=crop&q=80&w=200"
+      // image: "https://images.unsplash.com/photo-1504257432389-52343af06ae3?ixlib=rb-4.0.3&auto=format&fit=crop&q=80&w=200"
+      image: {seif}
+    },
+    {
+      id: 5,
+      name: "Abuuuuu",
+      role: "Graphic Designer",
+      content: "SupportSphere connected me with clients who value my design skills. The platform's focus on abilities rather than disabilities has been refreshing and empowering.",
+      // image: "https://images.unsplash.com/photo-1504257432389-52343af06ae3?ixlib=rb-4.0.3&auto=format&fit=crop&q=80&w=200"
+      image: {abuu}
     }
   ];
 
@@ -99,6 +116,7 @@ const Testimonials = () => {
                     src={testimonial.image}
                     alt={testimonial.name}
                     className="h-12 w-12 rounded-full object-cover mr-4"
+                  // src={usama} // Uncomment this line if using a URL
                   />
                   <div>
                     <p className="font-medium">{testimonial.name}</p>
