@@ -8,48 +8,52 @@ import usama  from '../pictures/usama.jpg'; // Adjust the import path as necessa
 import seif  from '../pictures/seif_dev.jpg'; // Adjust the import path as necessary
 import maryam  from '../pictures/Mariam Mussa.jpg'; // Adjust the import path as necessary
 import abuu from '../pictures/supportSphereLogo.png'; // Adjust the import path as necessary
+import fafi from '../pictures/fafii.png'; // Adjust the import path as necessary
 
 const Testimonials = () => {
   const testimonials = [
     {
       id: 1,
-      name: "Miss Juliana Mhando",
-      role: "Jewelry Artisan",
-      content: "SupportSphere has transformed my life. Before joining, I struggled to find buyers for my handcrafted jewelry. Now, I have regular customers and even export my products internationally!",
-      image: {juliana}
-      // image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&auto=format&fit=crop&q=80&w=200"
+      name: "Fakihat Omar ",
+      role: "Mtunzi na Muandishi",
+      content: "Nimetangaza kipaji changu cha Ushauiri kupitia SupportSphere, nimekuwa maarifi sana. Nimeandika vitabu kadhaa na kupata wateja wengi.",
+      image: fafi
     },
     {
       id: 2,
       name: "Usama Talib",
       role: "Software Developer",
-      content: "As a person with visual impairment, finding employment was challenging. Through SupportSphere, I was able to showcase my coding skills and now work remotely for a tech company.",
-      image: {usama}
-      // image: "https://images.unsplash.com/photo-1600486913747-55e5470d6f40?ixlib=rb-4.0.3&auto=format&fit=crop&q=80&w=200"
+      content: "Nimewezeshwa na SupportSphere kuonesha ujuzi wangu ktk Tehama, hivi sasa nimeajiriwa Serekalini.",
+      image: usama
     },
     {
       id: 3,
       name: "Maryam Mussa",
-      role: "Business Owner",
-      content: "The platform's accessibility features made it easy for me to manage my online presence. My small tailoring business has grown, and I've even hired two assistants from the community.",
-      // image: "https://images.unsplash.com/photo-1598550874175-4d0ef436c909?ixlib=rb-4.0.3&auto=format&fit=crop&q=80&w=200"
-      image: {maryam}
+      role: "Mshonaji Nguo",
+      content: "Ninafuraha kupata tenda za kushona nguo za wafanyakazi wa taasisi mbalimbali. Nimewezeshwa na SupportSphere.",
+      image: maryam
+      
     },
     {
       id: 4,
       name: "Seid Mwita",
-      role: "Graphic Designer",
-      content: "SupportSphere connected me with clients who value my design skills. The platform's focus on abilities rather than disabilities has been refreshing and empowering.",
-      // image: "https://images.unsplash.com/photo-1504257432389-52343af06ae3?ixlib=rb-4.0.3&auto=format&fit=crop&q=80&w=200"
-      image: {seif}
+      role: "Fundi Seremala",
+      content: "SupportSphere imenifanya napokea tenda za ili niwatengene madawati ya shule. Maisha yangu yameboreka sana.",
+      image: seif
     },
     {
       id: 5,
-      name: "Abuuuuu",
-      role: "Graphic Designer",
-      content: "SupportSphere connected me with clients who value my design skills. The platform's focus on abilities rather than disabilities has been refreshing and empowering.",
-      // image: "https://images.unsplash.com/photo-1504257432389-52343af06ae3?ixlib=rb-4.0.3&auto=format&fit=crop&q=80&w=200"
-      image: {abuu}
+      name: "Abubakar Omar",
+      role: "Muuza Matunda",
+      content: "SupportSphere umeniunganisha kupata wateja wengi na kunifanya nipate faida katika biashara yangu ya matunda na mbogamboga.",
+      image: abuu
+    },
+    {
+      id: 6,
+      name: "Miss Juliana Mhando",
+      role: "Mwalimu wa Kichina",
+      content: "SupportSphere imenikutanisha na Kampuni ya Ujenzi wa Barabara ili nime Mkalimani, Na enjoy maisha!",
+      image: juliana
     }
   ];
 
