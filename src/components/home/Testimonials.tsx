@@ -3,12 +3,12 @@ import { useState } from 'react';
 import { Card, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { ArrowLeft, ArrowRight } from 'lucide-react';
-import juliana  from '../pictures/juliana.jpg'; // Adjust the import path as necessary
-import usama  from '../pictures/usama.jpg'; // Adjust the import path as necessary
-import seif  from '../pictures/seif_dev.jpg'; // Adjust the import path as necessary
-import maryam  from '../pictures/Mariam Mussa.jpg'; // Adjust the import path as necessary
-import abuu from '../pictures/supportSphereLogo.png'; // Adjust the import path as necessary
-import fafi from '../pictures/fafii.png'; // Adjust the import path as necessary
+import juliana  from '../pictures/juliana.jpg'; 
+import usama  from '../pictures/usama.jpg'; 
+import seif  from '../pictures/seif_dev.jpg';
+import maryam  from '../pictures/Mariam Mussa.jpg';
+import abuu from '../pictures/abuu.jpg';
+import fafi from '../pictures/fafii.png'; 
 
 const Testimonials = () => {
   const testimonials = [
@@ -120,7 +120,7 @@ const Testimonials = () => {
                     src={testimonial.image}
                     alt={testimonial.name}
                     className="h-12 w-12 rounded-full object-cover mr-4"
-                  // src={usama} // Uncomment this line if using a URL
+                
                   />
                   <div>
                     <p className="font-medium">{testimonial.name}</p>

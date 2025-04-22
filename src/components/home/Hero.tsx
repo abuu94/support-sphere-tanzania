@@ -34,7 +34,6 @@ const Hero = () => {
           <div className="relative hidden lg:block">
             <img 
               src={fafiTeam}
-              // src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-4.0.3&auto=format&fit=crop&q=80&w=600" 
               alt="Person using SupportSphere platform" 
               className="rounded-lg shadow-xl transform -rotate-3 max-w-full h-auto"
               loading="lazy"

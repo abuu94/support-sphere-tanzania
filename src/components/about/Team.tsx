@@ -1,31 +1,51 @@
 
 import { Card, CardContent } from '@/components/ui/card';
+import fafi from '@/components/pictures/fafii.png';
+import logo from '@/components/pictures/supportSphereLogo.png';
+import abuu from '@/components/pictures/abuu.jpg';
+import juliana from '@/components/pictures/juliana.jpg';
+import usama from '@/components/pictures/usama.jpg'
+import sefu from '@/components/pictures/seif_dev.jpg';
+import maryam from '@/components/pictures/Mariam Mussa.jpg';
 
 const Team = () => {
   const teamMembers = [
     {
-      name: "Dr. Fatima Hassan",
-      role: "Founder & CEO",
-      bio: "With over 15 years of experience in disability advocacy, Dr. Hassan founded SupportSphere to create economic opportunities for people with disabilities.",
-      image: "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?ixlib=rb-4.0.3&auto=format&fit=crop&q=80&w=200"
+      name: "Maryam Mussa",
+      role: "DIT Graduate",
+      bio: "Computer Science, Database Designer",
+      image: maryam
     },
     {
-      name: "John Makundi",
-      role: "Chief Technology Officer",
-      bio: "John leads our technical team, ensuring our platform is accessible, user-friendly, and efficiently connects users with stakeholders.",
-      image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&auto=format&fit=crop&q=80&w=200"
+      name: "Seif Mwita Mgeni",
+      role: "Suza Student",
+      bio: "Computer Science, Web Developer.",
+      image: sefu
     },
     {
-      name: "Esther Mwanza",
-      role: "Community Outreach Director",
-      bio: "Esther works directly with communities across Tanzania to identify and register skilled individuals with disabilities.",
-      image: "https://images.unsplash.com/photo-1534751516642-a1af1ef26a56?ixlib=rb-4.0.3&auto=format&fit=crop&q=80&w=200"
+      name: "Fakihat Omar Abubakar",
+      role: "Juwauza",
+      bio: "IT, Domain Expert and Analyst",
+      // bio: "With over 5 years of experience in disability advocacy and Poet , Fakihat founded SupportSphere to create economic opportunities for people with disabilities.",
+      image: fafi
     },
     {
-      name: "David Ochieng",
-      role: "Stakeholder Relations",
-      bio: "David builds partnerships with businesses, NGOs, and government agencies to create opportunities for our registered users.",
-      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&q=80&w=200"
+      name: "Abubakar Yussuf Omar",
+      role: "Suza Graduate",
+      bio: "Team Lead.",
+      image: abuu
+    },
+    {
+      name: "Juliana Philimon Sarya",
+      role: "CBE Student",
+      bio: "IT, Content Strategist",
+      image: juliana
+    },
+    {
+      name: "Usama Talib Juma",
+      role: "Suza Student",
+      bio: "IT, UI/UX Designer.",
+      image: usama
     }
   ];
 
@@ -39,7 +59,7 @@ const Team = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-8">
           {teamMembers.map((member, index) => (
             <Card key={index} className="border-none shadow-md">
               <CardContent className="p-6 text-center">

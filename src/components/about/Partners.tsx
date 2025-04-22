@@ -1,36 +1,42 @@
 
 import { Card, CardContent } from '@/components/ui/card';
+import wizaraafya from '../pictures/wizara-afya.jpeg';
+import chambercommerce from '../pictures/chamber-commerce.jpeg';
+import commercechamber from '../pictures/commerce-chamber.jpeg';
+import disabilitytrust from '../pictures/disability-trust.jpeg';
+import digitalinclusion from '../pictures/digital-inclusion.jpeg';
+import artisancooperative from '../pictures/artisian-cooperativee.jpg';
 
 const Partners = () => {
   const partners = [
     {
       name: "Tanzania Disability Forum",
-      logo: "https://via.placeholder.com/150x80?text=Tanzania+Disability+Forum",
+      logo: commercechamber,
       type: "Non-Governmental Organization"
     },
     {
       name: "Ministry of Health and Social Welfare",
-      logo: "https://via.placeholder.com/150x80?text=Ministry+of+Health",
+      logo: wizaraafya,
       type: "Government Agency"
     },
     {
       name: "Tanzanian Chamber of Commerce",
-      logo: "https://via.placeholder.com/150x80?text=Chamber+of+Commerce",
+      logo: chambercommerce,
       type: "Business Association"
     },
     {
       name: "East African Disability Trust",
-      logo: "https://via.placeholder.com/150x80?text=EA+Disability+Trust",
+      logo: disabilitytrust,
       type: "Regional Organization"
     },
     {
       name: "Digital Inclusion Initiative",
-      logo: "https://via.placeholder.com/150x80?text=Digital+Inclusion",
+      logo: digitalinclusion,
       type: "Technology Partner"
     },
     {
       name: "Tanzanian Artisan Cooperative",
-      logo: "https://via.placeholder.com/150x80?text=Artisan+Cooperative",
+      logo: artisancooperative,
       type: "Community Partner"
     }
   ];
